@@ -7,11 +7,11 @@ from ssd1306 import SSD1306_I2C
 
 class Kubios:
     def __init__(self, oled=None):
-        self.ssid = "KME759_Group8"
-        self.password = "tosipitkasalasana1234"
-        
-        self.broker_ip = "192.168.8.253"
-        self.broker_port = 21883
+       # Configure before use
+        self.ssid = "YOUR_SSID"
+        self.password = "YOUR_PASSWORD"
+        self.broker_ip = "YOUR_BROKER_IP"
+        self.broker_port = "YOUR_BROKER_PORT"
         
         
         self.oled = oled
